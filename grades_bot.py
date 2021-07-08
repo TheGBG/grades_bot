@@ -127,15 +127,18 @@ grade_names = [get_grade_name(i) for i in range(0, 29)]
 # Table with grades
 grades = pd.DataFrame(
     
-    {'Subject': subject_names,
-    'Numeric grade': numeric_grades,
-    'Grade name': grade_names}
+    {
+        'Subject': subject_names,
+        'Numeric grade': numeric_grades,
+        'Grade name': grade_names
+        
+        }
     
     )
 
 second_quarter = grades.iloc[[0, 3, 5, 6, 10, 11, 12, 15, 16, 21, 22, 28]]
 
-print('This are your 2nd quarter marks')
+print('This are your second quarter marks')
 print(second_quarter)
 
 # Saves them and prints location
