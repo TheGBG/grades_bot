@@ -57,7 +57,7 @@ user.send_keys(USERNAME)
 password = browser.find_element_by_id('txtContrasena')
 password.send_keys(PASSWORD)
 
-print('Gettin access...')
+print('Getting access...')
 
 login = browser.find_element_by_id('btnEntrar')
 login.click()
