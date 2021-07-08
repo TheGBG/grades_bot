@@ -4,8 +4,8 @@ I made this bot to check for your grades quickly without having to
 go to the entire process manually.
 
 It scraps your CUNEF grades, average grades and ranking position.
-The necesary modules can be installed runing 
-`pip install -r requirements.txt`.
+The necesary modules can be installed 
+runing `pip install -r requirements.txt`.
 
 To use the bot, execute `py.exe .\grades_bot.py`. The first time you use it,
 it will ask yoy for your email and password, but after that, your
