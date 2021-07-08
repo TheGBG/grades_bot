@@ -1,3 +1,10 @@
+'''
+Blanco García, Gabriel. gabriel.blancogarcia98@gmail.com
+ 
+Grades bot: bot to scrape your grades at cunef website, so you don't
+have to manually check if there are new updates
+'''
+
 import time
 import pandas as pd
 from selenium.webdriver.chrome.options import Options
