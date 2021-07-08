@@ -1,3 +1,2 @@
 selenium==3.141.0
 pandas==1.2.3
-yaml==5.4.1
