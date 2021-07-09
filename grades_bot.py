@@ -149,7 +149,7 @@ print('This are your second quarter marks')
 print(second_quarter)
 
 # Saves them and prints location
-grades.to_csv('grades.csv', index=False)
+grades.to_csv('grades.csv', index=False, encoding='utf-8')
 current_dir = Path.cwd()
 
 print(rf'Complete grades saved at {current_dir}\grades.csv')
