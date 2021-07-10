@@ -171,7 +171,7 @@ time.sleep(5)
 ranking = browser.find_element_by_id('ctl00_MenuRankingYNotaMedia')
 ranking.click()
 
-print('Getting average grade and rakning position...')
+print('Getting average grade and ranking position...')
 
 time.sleep(10)
 
