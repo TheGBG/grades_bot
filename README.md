@@ -11,7 +11,7 @@ pip install -r requirements.txt
 
 To use the bot, execute 
 ```
-py.exe .\grades_bot.py
+python grades_bot.py
 ```
 The first time you use it,
 it will ask yoy for your email and password, but after that, your
